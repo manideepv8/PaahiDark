@@ -1,0 +1,94 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+img {
+    width: 100%;
+  }
+  
+  .masonry {
+      column-count: 4;
+      column-gap: 30px;
+  }
+
+  /* Mobile */
+.masonry {
+    padding: 30px;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    .masonry {
+        padding: 45px;
+    }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    .masonry {
+        padding: 60px;
+    }
+}
+  
+  .masonry .mItem {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  @media (max-width: 1199px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .masonry {
+      column-count: 1;
+    }
+  }
+
+  .mItem {
+    margin-bottom: -28px;
+    transition: transform .2s;
+}
+
+.mItem:hover {
+    transform: scale(1.08);
+  }
+
+  /* Mobile */
+.page-breadcrumb {
+      padding: 250px 0 150px;
+      background: url(../images/food/hero-mb.jpg) no-repeat;
+      background-attachment: fixed;
+      position: relative;
+  }
+
+  /* Tablet */
+@media (min-width:600px) {
+  .page-breadcrumb {
+    padding: 250px 0 150px;
+    background: url(../images/food/hero-tb.jpg) no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+}
+
+/* Desktop */
+@media (min-width:900px) {
+  .page-breadcrumb {
+    padding: 250px 0 150px;
+    background: url(../images/food/hero.jpg) no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+}
+
+
+  
